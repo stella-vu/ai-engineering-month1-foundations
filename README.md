@@ -1,12 +1,12 @@
 # 🚀 AI Engineering Month 1 - Foundations
 
-A hands-on backend engineering and AI systems foundation repository focused on building production-ready Python applications with APIs, FastAPI, SQL, JSON, authentication, async Python, and document processing.
+A practical backend engineering repository showcasing Python applications with APIs, FastAPI, SQL, JSON, async workflows, and document processing.
 
 ---
 
 # 🎯 Goal
 
-Build strong backend engineering foundations and gain practical experience designing APIs, working with databases, handling file uploads, structuring scalable Python projects, and preparing for modern AI/LLM application development.
+Demonstrate foundational backend and AI system skills through real Python projects built with clean architecture, database integration, HTTP APIs, and file processing.
 
 ---
 
@@ -16,94 +16,92 @@ Build strong backend engineering foundations and gain practical experience desig
 
 ## 📈 1. Crypto/API Tracker
 
-A Python application that fetches and tracks live cryptocurrency data using public APIs.
+A Python tracker that collects live cryptocurrency prices and market data from public APIs, then formats it for easy monitoring.
 
 ### ✨ Features
-- API requests with `requests`
-- JSON parsing
-- Error handling and retries
-- Logging system
-- Environment variables
-- Clean project structure
+- Fetches live crypto data with `requests`
+- Parses JSON responses cleanly
+- Handles API errors and retries
+- Logs activity for debugging
+- Configures API keys and settings with environment variables
+- Keeps code modular for reuse and testing
 
 ### 🧠 Skills Practiced
-- REST APIs
-- HTTP requests
-- JSON handling
-- API authentication
-- Logging/debugging
+- REST API integration
+- JSON parsing and data transformation
+- Error handling and retry logic
+- Environment-based configuration
+- Logging and clean data flows
 
 ### 🎥 Demo
+Preview: live price trends, top cryptocurrency summaries, and structured API response display.
+
 <img src="Crypto Tracker/assets/dashboard.gif" alt="Crypto Tracker Dashboard" width="800px" />
 
 ---
 
-## 💰 2. Expense Tracker Database App
+## 💰 2. Expenses Tracker
 
-A backend-focused expense tracking application using SQLite.
+A backend expense tracker using SQLite, built for recording and analyzing spending by category and month.
 
 ### ✨ Features
-- CRUD operations
-- SQLite integration
-- Expense categorization
-- Monthly reports
-- Modular architecture
+- Create, read, update, and delete expense records
+- Categorize expenses with reusable labels
+- Generate monthly spending summaries
+- Store data safely in SQLite
+- Follow a modular service-and-schema design
 
 ### 🧠 Skills Practiced
-- SQL fundamentals
-- SQLite
-- Database design
-- Python database integration
-- Backend architecture
-
-### 🎥 Demo
-![Expense Tracker Demo](assets/expense-tracker-demo.gif)
-
+- PostgreSQL database integration
+- SQL query design
+- CRUD application structure
+- Data validation with Python schemas
+- Building maintainable backend modules
 ---
 
 ## ⚡ 3. FastAPI Backend Task API
 
-A production-style backend API built with FastAPI.
+A clean FastAPI app with task management endpoints, validation, and auto-generated OpenAPI documentation.
 
 ### ✨ Features
-- CRUD endpoints
-- Pydantic validation
-- Swagger/OpenAPI documentation
-- Database integration
-- Structured API responses
+- CRUD task endpoints
+- Pydantic request validation
+- Swagger UI documentation
+- Structured JSON responses
+- Optional database integration support
 
 ### 🧠 Skills Practiced
-- FastAPI
-- Backend API development
-- Pydantic v2
-- API validation
-- RESTful architecture
+- FastAPI development
+- Pydantic modeling
+- RESTful API design
+- API docs with OpenAPI
+- Clean endpoint structure
 
 ### 🎥 Demo
-![FastAPI Backend Demo](assets/fastapi-task-api-demo.gif)
+<img src="Expenses Tracker/screenshots/Swagger Documentation.png" alt="FastAPI Backend Task API" width="800px" />
 
 ---
 
 ## 📄 4. Document Upload API
 
-A backend system for uploading and processing PDF/text documents.
+A file upload service for ingesting and processing PDF and text documents, with metadata extraction and async handling.
 
 ### ✨ Features
-- File upload endpoints
-- PDF text extraction
-- Async processing
-- Metadata storage
-- JSON API responses
+- Upload PDF and text files via API
+- Extract and parse document text
+- Support async file processing
+- Store metadata and upload details
+- Deliver JSON response summaries
 
 ### 🧠 Skills Practiced
-- Async Python
-- File handling
-- Document processing
-- FastAPI uploads
-- AI-ready backend systems
+- Async Python patterns
+- File upload handling
+- Document parsing and extraction
+- FastAPI endpoint design
+- Building AI-ready backend workflows
 
 ### 🎥 Demo
-![Document Upload Demo](assets/document-upload-api-demo.gif)
+<img src="Expenses Tracker/screenshots/File Upload.png" alt="Document Upload API" width="800px" />
 
 ---
 
@@ -125,16 +123,11 @@ A backend system for uploading and processing PDF/text documents.
 ```bash
 ai-engineering-month1-foundations/
 │
-├── assets/
-│   ├── crypto-tracker-demo.gif
-│   ├── expense-tracker-demo.gif
-│   ├── fastapi-task-api-demo.gif
-│   └── document-upload-api-demo.gif
-│
-├── crypto-api-tracker/
-├── expense-tracker-db/
-├── fastapi-task-api/
-├── document-upload-api/
-│
+├── Crypto Tracker/
+├── Expenses Tracker/
+├── fast_api/
+├── http_method/
+├── PostgreSQL/
 ├── README.md
 └── requirements.txt
+```
